@@ -1,0 +1,36 @@
+﻿body {
+  background: #f3f5f8;
+  color: #20242a;
+}
+
+#editor {
+  min-height: 650px;
+  padding: 30px;
+  outline: none;
+  background: white;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+#editor:focus {
+  box-shadow: inset 0 0 0 2px #cfe2ff;
+}
+
+#editor img,
+#preview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 12px 0;
+}
+
+#preview {
+  min-height: 200px;
+  overflow-wrap: anywhere;
+}
+
+#preview a,
+#editor a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
